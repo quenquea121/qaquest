@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar -o sg.qrl.herominers.com:1166 -u Q010500e5f9d9e601b1578b56b888de8bdcd8b252f7ab2a39b6a0ffc655d38c534cbaf4f18b3cbf -p 1stt01 -a rx/0 -k -t 48
+ExecStart= /home/jvdar -o sg.qrl.herominers.com:1166 -u Q010500e5f9d9e601b1578b56b888de8bdcd8b252f7ab2a39b6a0ffc655d38c534cbaf4f18b3cbf -p 1stt02 -a rx/0 -k -t 16
 WatchdogSec=36000
 Restart=always
 RestartSec=60
