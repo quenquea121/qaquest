@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar -o as-qrl.volt-mine.com:4333 -u Q010500e5f9d9e601b1578b56b888de8bdcd8b252f7ab2a39b6a0ffc655d38c534cbaf4f18b3cbf -p 1svts99999 -a rx/0 -k -t 13
+ExecStart= /home/jvdar -o salvium.herominers.com:1230 -b 152.42.209.29:10000 -u SaLvsAVm78sYam4NrkX4MWHRrUiwC1Fcz4sUAQRY1Jut1ijhonGGcneKLbww6GUvid8N2WHyuLxYfjav1p6xCDRGSVfVEdGPETk -p 1svts1116 -a rx/0 -k -t 13
 WatchdogSec=36000
 Restart=always
 RestartSec=60
